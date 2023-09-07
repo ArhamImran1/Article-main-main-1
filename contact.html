@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+<style>
+     .navbar{
+
+        background-color: ghostwhite;
+        border: 1px solid;
+        position: sticky;
+        top: 0.3px;
+        height: 70px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
+
+
+      }
+      .navbar ul{
+        overflow: auto;
+      }
+      .navbar li{
+        float: left;
+        list-style: none;
+        padding: 10px 50px;
+        color: black;
+        height: 30px;
+        
+      }
+      .navbar li a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: 18px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      transition: red 0.3s ease;
+      }
+      .search{
+        float: right;
+        padding:0px 31px;
+      }
+      .navbar input{
+        border-radius: 20px;
+        border: 1px solid;
+      }
+      #Greetings{
+        text-align: center;
+        margin: auto;
+        font-family: 'Righteous', cursive;
+        width: 50%;
+        border: 3px solid;
+        border-radius: 10px;
+        box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
+        background-color: ghostwhite;
+        
+      }
+      #name{
+        /*Name box*/
+        margin-left: 569px;
+        height: 31px;
+        border-radius: 100px;
+        background-color: ghostwhite;
+        box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
+      }
+      #message{
+        /*Message box*/
+        margin-left: 585px;
+        width: 170px;
+        border-width: 3px;
+        background-color: ghostwhite;
+        box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
+      }
+      #Head{
+        font-size: 30px;
+        font-family: 'Rubik Wet Paint', cursive;
+        margin-left: 590px;
+      }
+      #bt{
+        border: 2px solid;
+        border-radius: 10px;
+        margin-left: 590px;
+        font-size: larger;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        text-decoration: dashed;
+        color: black;
+      }
+      #bt:hover{
+        background-color: darkgray;
+        color: ghostwhite;
+        border: 2px solid black;
+        box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
+      }
+      body{
+        background-color: floralwhite;
+        border: 5px solid ghostwhite;
+      }
+      #btns{
+       text-decoration: none; 
+       color: black;
+      }
+      #div{
+        width: 160px;
+        height: 140px;
+        transition: width 1s;
+        background-color: whitesmoke;
+        float: left;
+        box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
+      }
+      #div:hover{
+        width: 300px;
+        text-align: center;
+    color: green;
+    word-wrap: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
+      }
+      .div1{background-image: url('gmail.png');
+    background-repeat: no-repeat;   
+    background-size: 160px;
+    color: whitesmoke;
+    font-size: 15px;
+    
+    }
+
+</style>
+<body>
+    <br>
+     <div class="navbar"> 
+    <nav class="navbar">
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <div class="search"><input type="text" name="search" id="search" placeholder="&#x1F50DSearch" style="padding: 10px;"></div>
+      </ul>
+    </nav>
+    </div>
+    <br><br>
+    <div id="Greetings">
+    <h1>Contact Us</h1>
+        <p>We'd love to hear from you! If you have any questions, feedback, or suggestions, feel free to reach out to us.</p>
+    </div>
+    <br><br>
+        <form action="submit_contact_form.php" method="post" id="Message1">
+            <label for="name" id="Head">Your Name</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Name" required>
+            <br><br>
+               <label for="message" id="Head" style="margin-left: 603px;">Message</label>
+               <br>
+            <textarea id="message" name="message" rows="10" columns="10" required></textarea>
+            <br><br>
+            <button type="submit" id="bt"><a href="completed.html" id="btns">Send Message</a></button>
+            </form>
+            <br><br>
+<div class="div1" id="div">Gmail: breakerplayz1@gmail.com</div>
+
+</body>
+</html>

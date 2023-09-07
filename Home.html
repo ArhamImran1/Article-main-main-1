@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lumanosimo&display=swap" rel="stylesheet">
+</head>
+<style>
+          #btn{
+        background-color: rgba(13, 11, 11, 0.485);
+        border-style: double;
+        border-radius: 20px;
+        font-size: larger;
+        color: aliceblue;
+        font-family: 'Lumanosimo', cursive;
+        cursor: pointer;
+        margin-left: 574px;
+        padding: 10px;
+        width: 200px;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+      }
+      #btn:hover{
+        color: antiquewhite;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+      }
+      .navbar{
+
+        background-color: rgb(253, 250, 250);
+        border: 1px solid;
+        position: sticky;
+        top: 0.3px;
+        height: 70px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
+
+
+      }
+      .navbar ul{
+        overflow: auto;
+      }
+      .navbar li{
+        float: left;
+        list-style: none;
+        padding: 10px 50px;
+        color: black;
+        height: 30px;
+        
+      }
+      .navbar li a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: 18px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      transition: red 0.3s ease;
+      }
+      .search{
+        float: right;
+        padding:0px 31px;
+      }
+      .navbar input{
+        border-radius: 20px;
+        border: 1px solid;
+      }
+
+      #text{
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Lumanosimo', cursive;
+      display: block;
+      width: 50%;
+      margin: auto;
+      text-align: center;
+      border: 2px double;
+      background-color: rgb(247, 246, 244);
+      border-width: 10px;
+      font-weight: bold;
+      box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+      border-radius: 20px;
+      }
+      .art{
+         display: inline-block;
+         margin: 45px;
+      }
+      #bt{
+      height: 200px;
+      width: 200px;
+      background-color: rgb(255, 255, 255);
+      margin: 20px;
+      cursor: pointer;
+      border-radius: 95px;
+      display: inline;
+      }
+      .img1{
+        background-image: url('download-removebg-preview.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline;
+
+      }
+      .img1:hover{
+        background-color: slategrey;
+        box-shadow: 0px 20px 20px rgba(249, 4, 4, 0.3);
+        border-width: 5px;
+        border-color: red;
+      }
+            .img2:hover{
+        background-color: slategrey;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+        border-width: 3px;
+      }
+            .img3:hover{
+        background-color: slategrey;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+        border-width: 3px;
+      }
+            .img4:hover{
+        background-color: slategrey;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+        border-width: 3px;
+      }
+      body{
+        background-color: blanchedalmond;
+        background-image: url('Arhams-removebg-preview.png');
+        background-repeat: no-repeat;
+        background-size: 1400px;
+        background-blend-mode: exclusion;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+
+      }
+      .titles{
+        border: 2px solid black;
+        background-color: beige;
+        margin: 100px;
+        padding: 8px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+        border-style: ridge;
+        border-radius: 20px;
+      }
+       .navbar li a:hover{
+        color: darkgray;
+      }
+      #Utube{
+        text-decoration: double;
+      }
+      #Utube:hover{
+        color: crimson;
+      }
+      .img2:hover{
+        background-image: url('cross.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .img3:hover{
+        background-image: url('cross.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .img4:hover{
+        background-image: url('cross.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+     
+</style>
+<body>
+     <div class="navbar"> 
+    <nav class="navbar">
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <div class="search"><input type="text" name="search" id="search" placeholder="&#x1F50DSearch" style="padding: 10px;"></div>
+      </ul>
+    </nav>
+    </div>
+    <br><br>
+    <h3 id="text">Welcome to <em>"Arhams Articles"</em> homepage select the topic on which you would like to retrieve information on from down below!!</h3>
+
+    <div class="container">
+      <div class="div1">
+    <div  class="art" id="art1" ><form action="jd.html" >
+      <input type="submit" value="" id="bt" class="img1"/>
+    </form></div>
+    <div class="art" id="art2"><form action="#" >
+      <input type="submit" value="" id="bt" class="img2"/>
+    </form></div>
+    <div class="art" id="art3"><form action="#" >
+      <input type="submit" value="" id="bt" class="img3"/>
+    </form></div>
+    <div class="art" id="art4"><form action="#" >
+      <input type="submit" value="" id="bt" class="img4"/>
+    </form></div>
+    </div>
+    
+    <span class="titles" ><a href="https://www.youtube.com/" style="color: darkred; border-color: red;" id="Utube">Youtube.com</a></span><span class="titles">Coming soon</span><span class="titles">Coming soon</span><span class="titles">Coming soon</span>
+    </div>
+    <div class="container">
+    <div class="div2">
+    <div class="art" id="art1" ><form action="#" >
+      <input type="submit" value="" id="bt" class="img2"/>
+    </form></div>
+    <div class="art" id="art2"><form action="#" >
+      <input type="submit" value="" id="bt" class="img2"/>
+    </form></div>
+    <div class="art" id="art3"><form action="#" >
+      <input type="submit" value="" id="bt" class="img3"/>
+    </form></div>
+    <div class="art" id="art4"><form action="#" >
+      <input type="submit" value="" id="bt" class="img4"/>
+    </form></div>
+    </div>
+    <span class="titles">Coming soon</span><span class="titles">Coming soon</span><span class="titles">Coming soon</span><span class="titles">Coming soon</span>
+    </div>
+    <div class="container">
+     <div class="div3">
+    <div class="art" id="art1" ><form action="#" >
+      <input type="submit" value="" id="bt" class="img2"/>
+    </form></div>
+    <div class="art" id="art2"><form action="#" >
+      <input type="submit" value="" id="bt" class="img2"/>
+    </form></div>
+    <div class="art" id="art3"><form action="#" >
+      <input type="submit" value="" id="bt" class="img3"/>
+    </form></div>
+    <div class="art" id="art4"><form action="#" >
+      <input type="submit" value="" id="bt" class="img4"/>
+    </form></div>
+    </div>
+    <span class="titles">Coming soon</span><span class="titles">Coming soon</span><span class="titles">Coming soon</span><span class="titles">Coming soon</span>
+    </div>
+    <br><br><br><br>
+    <hr>
+    <br><br>
+    <form action="index.html">
+      <input type="submit" value="Log Out" id="btn" />
+      <di</form>
+      <hr>
+</body>
+</html>

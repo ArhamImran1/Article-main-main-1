@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is description" />
+    <meta name="keywords" content="python, c++, HTML" />
+    <meta name="robots" content="INDEX, FOLLOW" />
+    <title>Article About Youtube</title>
+    <link rel="stylesheet" href="jd.css" />
+    <script src="jd.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap" rel="stylesheet">
+    <style>
+      #black {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        color: rgb(13, 0, 255);
+      }
+      #test {
+        height: 200px;
+        width: 500px;
+        background-image: url("http://127.0.0.1:5500/download.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: rgb(255, 255, 251);
+        box-sizing: border-box;
+        border-style: groove;
+        margin-left: 400px;
+        padding: 80px;
+        border-width: 20px;
+        border-color: rgb(236, 20, 9);
+        width: 40%;
+        margin: auto;
+      }
+      #Para {
+        border-style: groove;
+        border-color: rgba(238, 53, 7, 0.983);
+        background-color: #fbd8d8;
+        padding: 40px;
+        margin: 40px;
+        border-radius: 30px;
+        border-width: 10px;
+        font-size: 20px;
+        text-align: center;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+        justify-content: center;
+      }
+      #link {
+        padding: 10px;
+        margin-left: 70px;
+        border-radius: 5px;
+        border-style: groove;
+        border-color: black;
+        border-width: 10px;
+        background-color: white;
+        font-size: 25px;
+        font-family: "Courier New", Courier, monospace;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+      }
+      #head {
+        background-color: #fbfbfb;
+        border-style: ridge;
+        border-radius: 20px;
+        padding: 10px;
+        overflow: auto;
+        font-family: 'Preahvihear', sans-serif;
+        border-width: 20px;
+        text-align: center;
+        margin-left: 455px;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+}
+      #thanks {
+        font-family: "Amatic SC", cursive;
+        font-weight: bolder;
+        width: 10%;
+        margin-left: 560px;
+        display: inline;
+        border-style: dotted;
+        border-radius: 100px;
+        padding: 20px;
+        background-color: antiquewhite;
+        background-blend-mode: darken;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+        
+      }
+      body {
+        background-color: #f5eaece9;
+        border-style: solid;
+        border-color: #f80101;
+        float: left;
+        width: 100%;
+        margin: auto;
+        background-image: url('Arhams_Articles-removebg-preview.png');
+        background-size: 350px;
+        background-blend-mode: overlay;
+        background-repeat: repeat-y repeat-x round;
+
+        
+      }
+      #facts {
+        font-family: "Orbitron", sans-serif;
+        font-size: 12px;
+        margin-left: 240px;
+        width: 20%;
+        color: darkred;
+        width: 20%;
+      }
+      #black {
+        text-decoration: none;
+      }
+      #Arham {
+        text-decoration: none;
+      }
+      #black:hover {
+        color: slateblue;
+      }
+      #Arham:hover {
+        color: slateblue;
+      }
+      #black:active{
+        color: blueviolet;
+      }
+      #btn{
+        background-color: rgb(252, 33, 4);
+        float: left;
+        list-style: none;
+        border-style: double;
+        border-radius: 20px;
+        font-size: larger;
+        color: aliceblue;
+        font-family: 'Lumanosimo', cursive;
+        cursor: pointer;
+      }
+      #btn:hover{
+        background-color: rgba(121, 119, 119, 0.897);
+        color: antiquewhite;
+        font-size: 20px;
+      }
+      .navbar{
+        border-style: groove;
+        border-color: rgb(252, 9, 9);
+        background-color: rgb(217, 162, 162);
+        position: sticky;
+        top: 0.1px;
+        height: 70px;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+
+
+      }
+      .navbar ul{
+        overflow: auto;
+      }
+      .navbar li{
+        float: left;
+        list-style: none;
+        padding: 10px 50px;
+        color: black;
+        height: 30px;
+        
+      }
+      .navbar li a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: 18px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      transition: red 2s ease;
+      }
+      .search{
+        float: right;
+        padding:0px 31px;
+      }
+      .navbar input{
+        border-radius: 20px;
+        border: 1px solid;
+      }
+       .navbar li a:hover{
+        color: rgb(255, 6, 6);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar"> 
+    <nav class="navbar">
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <div class="search"><input type="text" name="search" id="search" placeholder="&#x1F50DSearch" style="padding: 10px;"></div>
+      </ul>
+    </nav>
+    </div>
+    <br><br>
+    <p id="test"></p>
+    <br /><br />
+    <!--<img src="download.png" alt="Could Not Load" />-->
+    <div class="container">
+      <h1 style="margin-left: 70px;">
+        <em><span id="head">Youtube.com</span></em>
+      </h1>
+    </div>
+    <p id="Para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.<strong
+        >Providing link to youtube</strong
+      >
+      Eum, eveniet corrupti asperiores consequuntur sunt dignissimos distinctio
+      reiciendis minus ipsum ratione dolores ad vero quas assumenda aut.<em
+        >Loading now</em
+      >
+      Vel expedita placeat aperiam!
+    </p>
+    <div class="container">
+      <h2 style="margin-left: 10px;">
+        <em><span id="head">Link and info about Youtube</span></em>
+      </h2>
+    </div>
+    <p id="Para">
+      <strong
+        ><em
+          >YouTube is an American online video sharing and social media platform
+          headquartered in San Bruno, California, United States. Accessible
+          worldwide, it was launched on February 14, 2005, by Steve Chen, Chad
+          Hurley, and Jawed Karim. It is owned by Google and is the second most
+          visited website, after Google Search</em
+        ></strong
+      >
+    </p>
+    <h3>
+      <a href="https://youtube.com" target="_blank" id="black">
+        <span id="link" style="margin-left: 560px">YouTube:Home</span>
+        <br /><br />
+        <span id="link" style="margin-left: 270px">
+          Share your videos with friends, family, and the world</span
+        ></a
+      >
+    </h3>
+    <br /><br />
+    <div class="container">
+      <h2 style="margin-left: 20px;">
+        <em><span id="head">Types of videos on youtube</span></em>
+      </h2>
+    </div>
+    <ul
+      type="circle"
+      style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+      id="Para" class="list"
+    ><em>
+      <strong>
+        <li>Company vlogs</li>
+        <li>Review videos</li>
+        <li>Product videos</li>
+        <li>“Portfolio” types of YouTube videos</li>
+        <li>“Educational” types of YouTube videos</li>
+        <li>Opinion-based videos</li>
+        <li>Docuseries</li>
+      </strong>
+      </em>
+    </ul>
+    <h5>
+      <em  id="facts" style="margin-left: 142px;"
+        >Did You Know? Around 3.7m new videos are uploaded to YouTube every day
+        _ that's around 271,330 hours of video content based on an average
+        length of 4.4 minutes.</em
+      >
+    </h5>
+    <br />
+    <div class="container">
+      <h2 style="margin-left: 20px;">
+        <em><span id="head">Famous Videos on Youtube</span></em>
+      </h2>
+    </div>
+      <strong>
+        <h3>
+          <table id="Para" style="margin-left: 430px;">
+            <thead>
+              <tr>
+                <th>Video</th>
+                <th>Publisher</th>
+                <th>Views - Billions</th>
+              </tr>
+            </thead>
+            <div id="Arham"></div>
+            <tbody>
+              <tr>
+                <td>
+                  <a
+                    id="black"
+                    href="https://en.wikipedia.org/wiki/Baby_Shark"
+                    target="_blank"
+                  >
+                    Baby shark</a
+                  >
+                </td>
+                <td>
+                  <a
+                    id="black"
+                    href="https://en.wikipedia.org/wiki/Pinkfong"
+                    target="_blank"
+                  >
+                    &nbsp;&nbsp;&nbsp;Pinkfong</a
+                  >
+                </td>
+                <td style="color: darkred">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13.0
+                </td>
+              </tr>
+              <br />
+              <tr>
+                <td>
+                  <a
+                    id="black"
+                    href="https://en.wikipedia.org/wiki/Despacito#Music_video"
+                    target="_blank"
+                  >
+                    Despacito</a
+                  >
+                </td>
+                <td>
+                  <a
+                    id="black"
+                    href="https://en.wikipedia.org/wiki/Luis_Fonsi"
+                    target="_blank"
+                  >
+                    &nbsp;&nbsp;&nbsp;Luis Fonso</a
+                  >
+                </td>
+                <td style="color: darkred">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.2
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    id="black"
+                    href="https://en.wikipedia.org/wiki/Shape_of_You#Music_video"
+                    target="_blank"
+                  >
+                    Shape of You</a
+                  >
+                </td>
+                <td>
+                  <a
+                    id="black"
+                    href="https://en.wikipedia.org/wiki/Ed_Sheeran"
+                    target="_blank"
+                  >
+                    &nbsp;&nbsp;&nbsp;Ed Sheeran</a
+                  >
+                </td>
+                <td style="color: darkred">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.02
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    id="black"
+                    href="https://en.wikipedia.org/wiki/See_You_Again#Music_video"
+                    target="_blank"
+                  >
+                    See You Again</a
+                  >
+                </td>
+                <td>
+                  <a
+                    id="black"
+                    href="https://en.wikipedia.org/wiki/Wiz_Khalifa"
+                    target="_blank"
+                  >
+                    &nbsp;&nbsp;&nbsp;Wiz Khalifa</a
+                  >
+                </td>
+                <td style="color: darkred">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.9
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </h3>
+      </strong>
+    </div>
+    <h5>
+      <em  id="facts" style="margin-left: 520px;"
+        >Links are provided to their Wikipedia Articles!</em
+      >
+    </h5>
+    <br><br>
+    <div class="container">
+      <h2 style="color: rgb(8, 2, 3)" id="thanks" style="margin-left: 40px;">
+        <em>Thank For Using</em>&nbsp;&#x1F60A;
+      </h2>
+    </div>
+    <br><br>
+   
+    <br><br>
+   
+  </body>
+</html>

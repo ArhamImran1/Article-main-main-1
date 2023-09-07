@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message sent</title>
+</head>
+<style>
+     .navbar{
+
+        background-color: ghostwhite;
+        border: 1px solid;
+        position: sticky;
+        top: 0.3px;
+        height: 70px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.3);
+
+
+      }
+      .navbar ul{
+        overflow: auto;
+      }
+      .navbar li{
+        float: left;
+        list-style: none;
+        padding: 10px 50px;
+        color: black;
+        height: 30px;
+        
+      }
+      .navbar li a{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: 18px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      transition: red 0.3s ease;
+      }
+      .search{
+        float: right;
+        padding:0px 31px;
+      }
+      .navbar input{
+        border-radius: 20px;
+        border: 1px solid;}
+    body{
+        background-color: floralwhite;
+        border: 5px solid ghostwhite;
+      }
+      #img{
+      height: 300px;
+      margin-left: 500px;
+      }
+      #comp{
+        margin-left: 489px;
+        font-size: larger;
+        color: green;
+        font-family: 'Arial Narrow Bold', sans-serif;
+      }
+</style>
+<body>
+    <div class="navbar"> 
+    <nav class="navbar">
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <div class="search"><input type="text" name="search" id="search" placeholder="&#x1F50DSearch" style="padding: 10px;"></div>
+      </ul>
+    </nav>
+    </div>
+    <br><br>
+    <img src="tick-removebg-preview.png" alt="Message sent" id="img">
+    <h3 id="comp">Your Message Has Been Sent</h3>
+</body>
+</html>
